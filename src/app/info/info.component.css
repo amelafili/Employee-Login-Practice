@@ -1,0 +1,10 @@
+input {
+    width: 64%;
+    height: 40px;
+    align-content: center;
+    margin: 5px;
+}
+
+button {
+    width: 130px;
+}

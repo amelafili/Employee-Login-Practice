@@ -1,0 +1,8 @@
+
+
+<form name='info' (ngSubmit)="f.form.valid && handleInfo" #f="ngForm">
+    <input type="text" name="empName" id="empName" [(ngModel)]="empname" placeholder="Employee Name"><br>
+    <input type="text" name ="timeIn" id ="timeIn" [(ngModel)]="timein" placeholder="Time In / 00:00"><br>
+    <input type="text" name="timeOut" id="timeOut" [(ngModel)]="timeout" placeholder="Time Out / 00:00"><br>
+    <button (click)="login()" id="buttonSubmit" type="submit">Submit</button><br>
+</form>
